@@ -1,0 +1,19 @@
+let titulo = document.querySelector ("h1");
+titulo.innerHTML = ("Hora del desafio");
+function mensajeDeUsuario () {
+  console.log ("el boton fue clicado");
+}
+function nombreCiudadDeBrasil (){
+let nombreCiudadDeBrasil = prompt ("digite el nombre de una ciudad de brasil");
+  alert = (`estuve en ${nombreCiudadDeBrasil} y me acorde de ti`);
+}
+function yoAmoJs() {
+alert ("yo amo js")
+}
+function suma(){
+  let numero1 = parseInt(prompt ("dijite el primer numero"));
+let numero2 = parseInt(prompt ("dijite el segundo numero"));
+let resultado  = numero1 + numero2;
+  alert (`la suma de ${numero1}+ ${numero2} es: ${resultado}`);
+  
+}
